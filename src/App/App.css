@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 10px;
 }
 
 .App-logo {
@@ -20,6 +21,20 @@
 
 .App-intro {
   font-size: large;
+}
+
+.Container-outline {
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 2px;
+  height: 500px;
+  width: 1000px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.Left-header {
+  text-align: start;
 }
 
 @keyframes App-logo-spin {
